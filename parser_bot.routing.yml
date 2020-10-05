@@ -1,0 +1,7 @@
+parser_bot.routing:
+  path: '/parser_bot'
+  defaults:
+    _title: 'Parser Bot'
+    _controller: '\Drupal\parser_bot\Controller\ParserBotController::init'
+  requirements:
+    _permission: 'access content'
